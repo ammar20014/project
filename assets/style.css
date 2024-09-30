@@ -1,0 +1,173 @@
+*
+{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+header nav
+{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+
+}
+header .nav .Links .item , #item
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+header .nav .Links #item a
+{
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 50PX;
+  color: blanchedalmond;
+}
+header .nav .Links .item a
+{ 
+  text-decoration: none;
+  font-size: 15px;
+  color: blanchedalmond; 
+}
+.hero
+{
+  width: 100%;
+  height: calc(100vh - 50px);
+  background-color: rgb(0, 189, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.hero div h1
+{   
+    display: inline-block;
+    font-size: 60px;
+    color: white;
+}
+.hero div p
+{
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.portfolio
+{
+  width: 100%;
+}
+.portfolio .parent
+{
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfolio .div1 img
+{
+  width: 200px;
+  height: 200px;
+  background-color:rgb(168, 38, 38);
+}
+.portfolio .div2 img
+{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 189, 170);
+}
+.portfolio .div3 img
+{
+  width: 200px;
+  height: 200px;
+  background-color:black;
+}
+.portfolio .div4 img
+{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(30, 138, 128);
+}
+.portfolio .div5 img
+{
+  width: 200px;
+  height: 200px;
+  background-color:rgb(7, 9, 157);
+}
+.portfolio .div6 img
+{
+  width: 200px;
+  height: 200px;
+  background-color:rgb(154, 90, 101);
+}
+.portfolio h2
+{
+  padding: 40px 0px;
+  text-align: center;
+  font-size: 30px;
+}
+.ABOUT
+{
+  width: 100%;
+  background-color: rgb(0, 189, 170) ;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.ABOUT .parent button
+{
+  text-align: center;
+  margin-bottom: 40px;
+  border: solid 2px white;
+  color: white;
+  background-color: rgb(0, 189, 170) ;
+}
+.ABOUT .parent h2
+{
+  padding: 40px 0px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.contact_info , .parent
+{
+  width: 100%;
+}
+.contact_info .parent form
+{
+  padding: 10px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact_info .parent form input , textarea
+{
+  border: none;
+}
+.contact_info h2
+{
+  text-align: center;
+  font-size: 30px;
+  padding: 40px 0px;
+}
+.contact_info .parent form button
+{
+  background-color:   rgb(0, 189, 170) ;
+  color: white;
+  border: solid 1px white;
+  padding: 10px;
+  border-radius: 5px;
+}
